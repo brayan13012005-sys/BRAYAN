@@ -1,0 +1,93 @@
+
+
+:root {
+  --dark: #031926;
+  --primary: #468189;
+  --secondary: #77ACA2;
+  --light: #9DBEBB;
+  --bg: #F4E9CD;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(3, 25, 38, 0.7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.primary {
+  background: var(--secondary);
+}
+
+.secondary {
+  background: var(--primary);
+}
+
+/* SECCIONES */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section.alt {
+  background: var(--light);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: var(--primary);
+}
+
+footer {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
