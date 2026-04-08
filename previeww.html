@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosting Web Completo</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+           background: linear-gradient(135deg, #a8d8ff, #d6efff);
+            color: #333;
+        }
+
+        header {
+          
+background: #66b3ff;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #1f2f4a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #00c6ff;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #243b55;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .img-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .img-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: #f0f4ff;
+            padding: 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            background: #e0eaff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Hosting Web</h1>
+    <p>Guía completa sobre el alojamiento en internet</p>
+</header>
+
+<nav>
+    <a href="#intro">Introducción</a>
+    <a href="#desarrollo">Desarrollo</a>
+    <a href="#tipos">Tipos</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#conclusion">Conclusión</a>
+</nav>
+
+<div class="container">
+
+    <section id="intro">
+        <h2>Introducción</h2>
+        <p>
+            El hosting web es un servicio que permite almacenar páginas web en servidores para que puedan ser vistas en internet. 
+            Cada sitio web que visitas está alojado en un servidor que funciona las 24 horas del día.
+        </p>
+
+        <div class="img-container">
+            <img src="HostingImg.jpeg" alt="Servidor web">
+        </div>
+    </section>
+
+    <section id="desarrollo">
+        <h2>¿Cómo funciona el hosting?</h2>
+        <p>
+            Cuando escribes una dirección web en tu navegador, este envía una solicitud a un servidor. 
+            El servidor responde enviando los archivos del sitio (HTML, imágenes, videos), permitiendo que la página se cargue.
+        </p>
+        <p>
+            Los servidores están conectados a internet permanentemente y cuentan con medidas de seguridad, respaldo y alta velocidad.
+        </p>
+
+      
+    </section>
+
+    <section id="tipos">
+        <h2>Tipos de Hosting</h2>
+
+        <div class="cards">
+            <div class="card">
+                <strong>Compartido</strong>
+                <p>Varios sitios usan el mismo servidor. Es económico pero con menos rendimiento.</p>
+            </div>
+
+            <div class="card">
+                <strong>VPS</strong>
+                <p>Servidor virtual con recursos dedicados. Mayor control y estabilidad.</p>
+            </div>
+
+            <div class="card">
+                <strong>Dedicado</strong>
+                <p>Servidor completo para un solo usuario. Máximo rendimiento.</p>
+            </div>
+
+            <div class="card">
+                <strong>Nube</strong>
+                <p>Uso de múltiples servidores conectados. Alta disponibilidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <h2>Características importantes</h2>
+
+        <div class="cards">
+            <div class="card">💾 Almacenamiento</div>
+            <div class="card">🌐 Ancho de banda</div>
+            <div class="card">🔒 Seguridad</div>
+            <div class="card">⚙ Panel de control</div>
+            <div class="card">📞 Soporte técnico</div>
+            <div class="card">📈 Escalabilidad</div>
+        </div>
+
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusión</h2>
+        <p>
+            El hosting web es una parte esencial de cualquier proyecto digital. Elegir el tipo adecuado influye directamente 
+            en el rendimiento, seguridad y éxito de un sitio web.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 - Hosting Web</p>
+</footer>
+
+</body>
+</html>
