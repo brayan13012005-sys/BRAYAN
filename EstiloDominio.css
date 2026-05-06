@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ===== CSS ===== */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #2e1065, #9333ea);
+    color: #1e1b4b;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ddd6fe;
+}
+
+main {
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.example {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ede9fe;
+    border-left: 5px solid #7c3aed;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #7c3aed;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+
