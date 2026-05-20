@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/* Contenedor principal de la tarjeta */
+.card {
+    background-color: #1e122b; /* Morado muy oscuro de fondo */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    max-width: 450px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #4a2874; /* Borde sutil morado */
+}
+
+/* Título principal */
+.card h2 {
+    color: #e0b0ff; /* Tono lavanda claro */
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Texto de descripción */
+.card p {
+    color: #bfa3db; /* Morado grisáceo suave */
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de texto y textarea (sobreescribe los estilos en línea) */
+.card input[type="text"],
+.card input[type="email"],
+.card textarea {
+    background-color: #2d1b42 !important; /* Fondo morado oscuro */
+    border: 1px solid #5c338c !important; /* Borde morado medio */
+    color: #ffffff !important; /* Texto blanco para alto contraste */
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al hacer clic o seleccionar un campo */
+.card input[type="text"]:focus,
+.card input[type="email"]:focus,
+.card textarea:focus {
+    outline: none;
+    border-color: #ba68c8 !important; /* Brillo morado claro */
+    box-shadow: 0 0 8px rgba(186, 104, 200, 0.5);
+}
+
+/* Marcador de posición (Placeholder) */
+.card ::placeholder {
+    color: #8e70b3; /* Morado tenue para el texto de guía */
+}
+
+/* Botón de envío (sobreescribe el estilo en línea) */
+.card button[type="submit"] {
+    background: #9c27b0 !important; /* Morado vibrante */
+    color: #ffffff !important; /* Texto blanco */
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Efecto hover para el botón */
+.card button[type="submit"]:hover {
+    background: #ba68c8 !important; /* Morado más claro al pasar el cursor */
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.4);
+    transform: translateY(-1px);
+}
+
+/* Efecto click para el botón */
+.card button[type="submit"]:active {
+    transform: translateY(1px);
+}
+
