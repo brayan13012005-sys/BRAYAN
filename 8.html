@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>El cine y sus Características</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a40, #3b3b98);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      color: #1a1a40;
+      margin-bottom: 15px;
+    }
+
+    section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1a1a40;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;}
+
+        #navlist {
+            background-color: #000000;
+            position: absolute;
+            width: 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+ <div id="navlist">
+<nav>
+    <a href="index1.html">MENU</a>
+        <a href="primer.html">PRIMER PARCIAL</a>
+        <a href="segundo.html">SEGUNDO PARCIAL</a>
+        <a href="tercer.html">TERCER PARCIAL</a> 
+</nav>
+  <header>
+    <h1>Compresion de datos</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#tipos">Tipos</a>
+    <a href="#tecnicas">Tecnica</a>
+    
+  </nav>
+
+  <main class="container">
+    <section id="tipos">
+      <h2>Tipos y tecnica de compresion de datos</h2>
+      <img src="ocho.jpg" alt="Imagen de prensa">
+      <p>Compresión sin pérdida (Lossless)
+
+No se pierde información.
+
+El archivo original se puede recuperar exactamente.
+
+Usada en texto, software, bases de datos, imágenes PNG.
+
+Ejemplos: ZIP, RAR, PNG, FLAC.
+
+Compresión con pérdida (Lossy)
+
+Elimina datos menos perceptibles para reducir más el tamaño.
+
+El archivo no se puede reconstruir al 100%.
+
+Usada en multimedia (imágenes, audio, video).
+
+Ejemplos: JPEG, MP3, MP4, AAC.</p>
+    </section>
+
+    <section id="tecnicas">
+      <h2>tecnica de compresion de datos</h2>
+           <p>
+ 🔹Sin pérdida:
+
+Codificación Huffman: usa códigos más cortos para datos frecuentes.
+
+Algoritmo Lempel-Ziv (LZ77, LZ78, LZW): base de ZIP y GIF.
+
+Run-Length Encoding (RLE): comprime secuencias repetidas (ejemplo: imágenes simples).
+
+🔹 Con pérdida:
+
+Transformada Discreta del Coseno (DCT): usada en JPEG para reducir información visual.
+
+Compresión perceptual: elimina sonidos o imágenes que el oído/ojos humanos no perciben fácilmente (MP3, AAC).
+
+Cuantización: reduce precisión de los datos para ahorrar espacio (audio y video).  </p>
+    </section>
+
+      </main>
+
+  <footer>
+    <p>&copy; 2025 Los compresores y sus Características | DANNA PONCELIS</p>
+  </footer>
+
+</body>
+</html>

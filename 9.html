@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>El cine y sus Características</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a40, #3b3b98);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      color: #1a1a40;
+      margin-bottom: 15px;
+    }
+
+    section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1a1a40;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;}
+
+        #navlist {
+            background-color: #000000;
+            position: absolute;
+            width: 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+ <div id="navlist">
+<nav>
+    <a href="index1.html">MENU</a>
+        <a href="primer.html">PRIMER PARCIAL</a>
+        <a href="segundo.html">SEGUNDO PARCIAL</a>
+        <a href="tercer.html">TERCER PARCIAL</a> 
+</nav>
+  <header>
+    <h1>Compresion de datos</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#tipos">Sin perdida</a>
+    <a href="#tecnicas">Funcion</a>
+ <a href="#tipos">Principales algoritmos</a>
+    <a href="#tecnicas">Ejemplos</a>
+
+    
+  </nav>
+
+  <main class="container">
+    <section id="tipos">
+      <h2>Sin perdida</h2>
+      <img src="ocho.jpg" alt="Imagen de prensa">
+      <p>Compresión sin pérdida (Lossless)
+
+La compresión sin pérdida es una técnica que reduce el tamaño de los archivos sin alterar ni eliminar ningún dato original.
+Cuando el archivo comprimido se descomprime, se recupera exactamente igual al original, bit por bit.
+
+Esto la hace ideal para archivos donde la precisión es indispensable, como:
+
+Documentos de texto.
+
+Software o bases de datos.
+
+Imágenes gráficas (logotipos, dibujos técnicos).
+
+Audio de alta calidad (archivos para edición profesional).</p>
+    </section>
+
+    <section id="tecnicas">
+      <h2>Funcion</h2>
+           <p>
+ La compresión sin pérdida se basa en encontrar patrones y redundancias en los datos para representarlos de manera más corta.
+Por ejemplo:
+
+Una secuencia repetida de letras AAAAAA puede almacenarse como 6A.
+
+Una imagen con áreas de color sólido puede codificarse sin repetir cada píxel idéntico. </p>
+    </section>
+
+<section id="tecnicas">
+      <h2>Principales algoritmos de compresión sin pérdida</h2>
+           <p>
+Codificación Huffman
+
+Usa códigos más cortos para datos frecuentes y más largos para los menos comunes.
+
+Muy usado en compresión de texto.
+
+Algoritmo Lempel-Ziv (LZ77, LZ78, LZW)
+
+Base de formatos como ZIP, GIF y PNG.
+
+Sustituye secuencias repetidas por referencias a una tabla de patrones.
+
+Run-Length Encoding (RLE)
+
+Representa series de símbolos repetidos con un contador.
+
+Muy eficaz en imágenes simples con áreas uniformes.
+
+Burrows–Wheeler Transform (BWT)
+
+Reorganiza los datos para que sean más fáciles de comprimir con otros métodos.</p>
+    </section>
+
+<section id="tecnicas">
+      <h2>Ejemplos de formatos con compresión sin pérdida</h2>
+           <p>Texto/archivos: ZIP, RAR, 7z, GZIP, TAR.
+
+Imágenes: PNG, GIF, TIFF (opcional).
+
+Audio: FLAC, ALAC (Apple Lossless), Monkey’s Audio.
+
+Bases de datos: Usan compresión sin pérdida para no alterar los registros.Codificación Huffman
+
+Usa códigos más cortos para datos frecuentes y más largos para los menos comunes.
+
+Muy usado en compresión de texto.
+
+Algoritmo Lempel-Ziv (LZ77, LZ78, LZW)
+
+Base de formatos como ZIP, GIF y PNG.
+
+Sustituye secuencias repetidas por referencias a una tabla de patrones.
+
+Run-Length Encoding (RLE)
+
+Representa series de símbolos repetidos con un contador.
+
+Muy eficaz en imágenes simples con áreas uniformes.
+
+Burrows–Wheeler Transform (BWT)
+
+Reorganiza los datos para que sean más fáciles de comprimir con otros métodos.</p>
+    </section>
+
+
+
+      </main>
+
+  <footer>
+    <p>&copy; 2025 Los compresores y sus Características | DANNA PONCELIS</p>
+  </footer>
+
+</body>
+</html>

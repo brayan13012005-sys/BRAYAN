@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>Imagenes Digitales</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a40, #3b3b98);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      color: #1a1a40;
+      margin-bottom: 15px;
+    }
+
+    section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1a1a40;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;}
+
+        #navlist {
+            background-color: #000000;
+            position: absolute;
+            width: 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+ <div id="navlist">
+<nav>
+    <a href="index1.html">MENU</a>
+        <a href="primer.html">PRIMER PARCIAL</a>
+        <a href="segundo.html">SEGUNDO PARCIAL</a>
+        <a href="tercer.html">TERCER PARCIAL</a> 
+</nav>
+  <header>
+    <h1>TERMINOLOGÍA</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#tipos">TERMINOLOGÍA</a>
+  </nav>
+
+  <main class="container">
+    <section id="tipos">
+      <h2></h2>
+    
+      <p>TERMINOLOGÍA (AM, FM, PCM)
+1. Modulación<br>
+
+Proceso mediante el cual una señal de baja frecuencia (mensaje) modifica una señal de alta frecuencia (portadora) para poder transmitirse.<br>
+
+2. Señal moduladora<br>
+
+Es la señal que contiene la información original: voz, música, datos.<br>
+
+3. Señal portadora<br>
+
+Onda de alta frecuencia que sirve para transportar la información a grandes distancias.<br>
+
+4. AM (Amplitud Modulada)<br>
+
+Técnica de modulación donde la amplitud de la portadora varía de acuerdo con la señal de mensaje.<br>
+
+5. FM (Frecuencia Modulada)<br>
+
+Técnica donde se modifica la frecuencia de la portadora según los cambios de la señal moduladora.<br>
+
+6. PCM (Pulse Code Modulation)<br>
+
+Proceso para convertir una señal analógica en una señal digital mediante muestreo, cuantificación y codificación.<br>
+
+7. Muestreo<br>
+Toma de muestras periódicas de una señal analógica a intervalos regulares.<br>
+
+8. Teorema de Nyquist<br>
+
+Principio que establece que la frecuencia de muestreo debe ser al menos el doble de la frecuencia máxima del mensaje.<br>
+
+9. Cuantificación<br>
+
+Proceso de aproximar el valor de cada muestra a un nivel discreto permitido.
+
+10. Codificación<br>
+
+Asignación de un código binario (0 y 1) a cada nivel cuantificado.<br>
+
+11. Sobre-modulación<br>
+
+Cuando el índice de modulación en AM supera el 100% y causa distorsión.<br>
+
+12. Banda lateral<br>
+
+Conjunto de frecuencias que aparecen por la modulación y que contienen la información del mensaje (USB y LSB).<br>
+
+13. Ancho de banda<br>
+
+Rango de frecuencias necesario para transmitir una señal.<br>
+
+14. Desviación de frecuencia (Δf)<br>
+
+Cambio máximo de frecuencia en FM debido a la señal moduladora.<br>
+
+15. Índice de modulación (AM)<br>
+
+Relación entre la amplitud de la moduladora y la amplitud de la portadora.<br>
+
+16. Índice de modulación (FM)<br>
+
+Relación entre la desviación de frecuencia y la frecuencia del mensaje.<br>
+
+17. Detección o Demodulación<br>
+
+Proceso de recuperar la señal original (mensaje) a partir de la señal modulada.<br>
+
+18. Detector de envolvente<br>
+
+Circuito usado para demodular señales AM.<br>
+
+19. PLL (Phase-Locked Loop)<br>
+
+Circuito utilizado para demodular señales FM con gran estabilidad.<br>
+
+20. Frecuencia portadora<br>
+
+Frecuencia de la onda usada para transportar la información.<br>
+
+21. Banda base<br>
+
+Señal original antes de ser modulada.<br>
+
+22. Ruido<br>
+
+Interferencia que afecta la calidad de la señal transmitida.<br>
+
+23. Relación señal–ruido (SNR)<br>
+
+Medida de la calidad de una señal comparada con el nivel de ruido.<br>
+
+24. NBFM (FM de banda angosta)<br>
+
+Modulación FM con bajo índice de modulación y pequeño ancho de banda.<br>
+
+25. WBFM (FM de banda ancha)<br>
+
+FM de alto índice de modulación, usada en radio comercial.<br>
+
+26. Frecuencia instantánea<br>
+
+Frecuencia que tiene la señal FM en un momento específico.<br>
+
+27. Distorsión<br>
+
+Alteración no deseada de la señal original durante la transmisión o modulación.<br>
+
+28. Multiplexación<br>
+
+Técnica para transmitir varias señales por un mismo canal.<br>
+
+29. TDM (Time Division Multiplexing)<br>
+
+Multiplexación por división de tiempo, muy usada con señales PCM.<br>
+
+30. Espectro de frecuencia<br>
+
+Distribución de energía de una señal según sus componentes de frecuencia.<br></p>
+    </section>
+
+
+      </main>
+
+
+
+  <footer>
+    <p>&copy; 2025  | DANNA PONCELIS</p>
+  </footer>
+
+</body>
+</html>

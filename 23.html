@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>Imagenes Digitales</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a40, #3b3b98);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      color: #1a1a40;
+      margin-bottom: 15px;
+    }
+
+    section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1a1a40;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;}
+
+        #navlist {
+            background-color: #000000;
+            position: absolute;
+            width: 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+ <div id="navlist">
+<nav>
+    <a href="index1.html">MENU</a>
+        <a href="primer.html">PRIMER PARCIAL</a>
+        <a href="segundo.html">SEGUNDO PARCIAL</a>
+        <a href="tercer.html">TERCER PARCIAL</a> 
+</nav>
+  <header>
+    <h1>Amplitud Modulada (AM)</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#tipos">Qué es</a>
+    <a href="#tecnicas">¿Cómo funciona la AM?</a>
+ <a href="#tipos>Índice de Modulación (m)</a>
+<a href="#tecnicas1">Aplicaciones de AM</a>
+<a href="#tecnicas2">Ventajas de AM</a>
+<a href="#tecnicas2"> Desventajas de AM</a>
+
+
+
+
+
+    
+  </nav>
+
+  <main class="container">
+    <section id="tipos">
+      <h2></h2>
+     
+      <p>La Modulación de Amplitud (AM, Amplitude Modulation) es una técnica de comunicación analógica en la que la amplitud de una onda portadora (una señal de alta frecuencia) se modifica según las variaciones de la señal de información (audio, datos, etc.).
+
+Se utiliza principalmente en radio AM, comunicaciones aeronáuticas y algunos sistemas analógicos básicos.</p>
+    </section>
+
+    <section id="tecnicas">
+      <h2>¿Cómo funciona la AM?</h2>
+           <p>
+La señal AM se genera combinando dos señales:
+
+1) Señal de información (moduladora)
+
+Frecuencia baja
+
+Contiene el mensaje (voz, música)
+
+2) Señal portadora
+
+Frecuencia alta
+
+Se usa para transportar la información a largas distancias
+
+La idea clave:
+
+En AM, la amplitud de la portadora cambia para seguir la forma de la señal moduladora.
+
+Matemáticamente:
+
+𝑠
+(
+𝑡
+)
+=
+[
+1
++
+𝑘
+𝑎
+𝑚
+(
+𝑡
+)
+]
+cos
+⁡
+(
+𝜔
+𝑐
+𝑡
+)
+s(t)=[1+k
+a
+	​
+
+m(t)]cos(ω
+c
+	​
+
+t)
+
+Donde:
+
+𝑚
+(
+𝑡
+)
+m(t) = señal de mensaje
+
+cos
+⁡
+(
+𝜔
+𝑐
+𝑡
+)
+cos(ω
+c
+	​
+
+t) = portadora
+
+𝑘
+𝑎
+k
+a
+	​
+
+ = índice de modulación
+</p>
+
+    </section>
+
+<section id="tecnicas">
+      <h2>📌Índice de Modulación (m)</h2>
+           <p>
+El índice de modulación en AM indica qué tanto cambia la amplitud de la portadora.
+
+𝑚
+=
+𝐴
+𝑚
+𝐴
+𝑐
+m=
+A
+c
+	​
+
+A
+m
+	​
+
+	​
+
+
+𝐴
+𝑚
+A
+m
+	​
+
+: amplitud de la señal moduladora
+
+𝐴
+𝑐
+A
+c
+	​
+
+: amplitud de la portadora
+
+Valores típicos:<br>
+
+m < 1 → Modulación correcta<br>
+
+m = 1 → Modulación al 100%<br>
+
+m > 1 → Sobre–modulación (distorsión)<br>
+</p>
+    </section>
+
+
+<section id="tecnicas1">
+      <h2>📌Aplicaciones de AM</h2>
+           <p>
+Radio AM (530 kHz – 1700 kHz)<br>
+
+Comunicaciones aeronáuticas (118–137 MHz)<br>
+
+Telemetría analógica<br>
+
+Comunicaciones militares antiguas<br>
+
+Transmisión de voz de largo alcance
+
+</p>
+    </section>
+<section id="tecnicas2">
+      <h2>📌 Ventajas de AM</h2>
+           <p>
+
+
+✔ Equipos simples y económicos<br>
+
+✔ Fácil de demodular<br>
+
+✔ Alcances muy grandes (cobertura nacional)<br>
+
+✔ Funciona bien en bandas de frecuencia bajas
+</p>
+    </section>
+
+<section id="tecnicas2">
+      <h2>📌 Desventajas de AM</h2>
+           <p>
+✖ Poco eficiente (solo 1/3 de la potencia lleva información)<br>
+
+✖ Muy vulnerable al ruido eléctrico<br>
+
+✖ Calidad de audio baja comparada con FM<br>
+
+✖ Requiere antenas grandes
+</p>
+    </section>
+
+
+
+
+      </main>
+
+
+
+  <footer>
+    <p>&copy; 2025  | DANNA PONCELIS</p>
+  </footer>
+
+</body>
+</html>

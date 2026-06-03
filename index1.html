@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temario - Medios de Comunicación</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #f5f5f5;
+    }
+
+    header {
+      text-align: center;
+      padding: 15px;
+      background: #1c1c1c;
+      border-bottom: 2px solid #4a90e2;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      letter-spacing: 2px;
+      color: #4a90e2;
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px;
+      overflow-x: auto; /* Permite scroll si no caben todos en pantalla */
+    }
+
+    .card {
+      background: rgba(290, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 10px;
+      width: 220px;  /* Más pequeño */
+      height: 390px; /* Tamaño reducido */
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+      font-size: 0.8rem;
+      flex-shrink: 0; /* No se encojan */
+      overflow-y: auto; /* Scroll interno si hay muchos temas */
+    }
+
+    .card h2 {
+      color: #4a90e2;
+      font-size: 1rem;
+      margin: 0 0 8px 0;
+      border-bottom: 1px solid #4a90e2;
+      padding-bottom: 3px;
+      text-align: center;
+    }
+
+    .card ol {
+      padding-left: 15px;
+      margin: 0;
+    }
+
+    .card li {
+      margin: 4px 10;
+      font-size: 0.90rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1c1c1c;
+      border-top: 10px solid #4a90e2;
+      font-size: 0.75rem;
+      color: #ccc;
+    }
+ nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+  </style>
+</head>
+<body>
+<nav>
+    <a href="index1.html">MENU</a>
+        <a href="primer.html">PRIMER PARCIAL</a>
+        <a href="segundo.html">SEGUNDO PARCIAL</a>
+        <a href="tercer.html">TERCER PARCIAL</a> 
+</nav>
+
+  <header>
+    <h1>TEMARIO</h1>
+  </header>
+
+
+  <main>
+    <div class="card">
+      <h2>I. Antecedentes de los medios de comunicacion</h2>
+      <ol>
+        <li> <a href="1.html">1.1 Prensa</a></li>
+        <li>  <a href="2.html">1.2 Cine</a></li>
+        <li>  <a href="3.html">1.3 Radio</a></li>
+        <li>  <a href="4.html">1.4 Televisión</a></li>
+        <li>  <a href="5.html">1.5 Redes de computadoras</a></li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>II. Algoritmos de compresion</h2>
+      <ol>
+        <li><a href="6.html">2.1 compresion de datos</a></li>
+        <li><a href="6.html">2.2 ¿Qué es y como es posible?</a></li>
+        <li><a href="8.html">2.3 Técnicas o tipos de compresion</a></li>
+        <li><a href="9.html">2.4 Sin pérdida o lossless</a></li>
+        <li><a href="5.html">2.5 Redes de computadoras</a></li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>III. Compresion de Imágenes</h2>
+      <ol>
+        <li><a href="10.html">3.1 Imagenes Digitales</a></li>
+        <li><a href="11.html">3.2 Propiedad de la imagen digital</a></li>
+        <li><a href="12.html">3.3 Pixel</a></li>
+        <li><a href="13.html">3.4 ¿Como se crean las imagens digitales?</a></li>
+        <li><a href="14.html">3.6 Fotografia</a></li>
+        <li><a href="15.html">3.7 Creacion directa en progrmas de graficos</a></li>
+        <li><a href="16.html">3.8 Formato de imagen</a></li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>IV. Compresion de Audio</h2>
+      <ol>
+        <li><a href="17.html">4.1 Sonido</a></li>
+        <li><a href="18.html">4.2 Acustica</a></li>
+        <li><a href="19.html">4.3 El sistema auditivo humano</a></li>
+        <li><a href="20.html">4.4 Audio digital</a></li>
+
+        <li><a href="22.html">4.5 Modulacion de pulsos codificados(PCM)</li>
+        <li><a href="23.html">4.6 Amplitud modulada(AM)</li>
+        <li><a href="24.html">4.7 Frecuencia modelada(FM)</li>
+        <li><a href="25.html">4.8 Terminologia</li>
+        <li><a href="26.html">4.9 Coedificador/Decodificador o Codec</li>
+        <li><a href="26.1.html">4.10 Formatos de audio</a></li>
+        <li><a href="26.1.html">4.11 Sin perdida</li>
+       <li><a href="26.1.html">4.12 Con perdida</li>
+        <li><a href="29.html">4.13 ¿Que es streaming?</li>
+        <li><a href="30.html">4.14 Platamormas de musica en streaming</a></li>
+
+
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>V. Compresion de Video</h2>
+      <ol>
+        <li><a href="31.1.html">5.1 Video analógico</li>
+        <li><a href="31.html">5.2 CRT</li>
+        <li><a href="32.html">5.3 Video Digital</li>
+        <li><a href="32.html">5.4 Ventajas</li>
+        <li><a href="33.html">5.5 Televison de alta definicion (HD)</li>
+        <li><a href="34.html">5.6 Formatos de video digital</li>
+
+      </ol>
+    </div>
+  </main>
+
+  <footer>
+    <p>Proyecto de algoritmos de compresion - 2025</p>
+  </footer>
+</body>
+</html>
+

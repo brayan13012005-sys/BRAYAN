@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ 
+  <title>Imagenes Digitales</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1a1a40, #3b3b98);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      color: #1a1a40;
+      margin-bottom: 15px;
+    }
+
+    section img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1a1a40;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;}
+
+        #navlist {
+            background-color: #000000;
+            position: absolute;
+            width: 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+ <div id="navlist">
+<nav>
+    <a href="index1.html">MENU</a>
+        <a href="primer.html">PRIMER PARCIAL</a>
+        <a href="segundo.html">SEGUNDO PARCIAL</a>
+        <a href="tercer.html">TERCER PARCIAL</a> 
+</nav>
+  <header>
+    <h1>Modulación de Pulsos Codificados (PCM)</h1>
+    <p></p>
+  </header>
+
+  <nav>
+    <a href="#tipos">Qué es</a>
+    <a href="#tecnicas">1. Etapas del Proceso PCM</a>
+ <a href="#tipos">Ventajas de PCM</a>
+<a href="#tecnicas1">Desventajas de PCMa</a>
+<a href="#tecnicas2">Aplicaciones de PCM</a>
+<a href="#tecnicas2">Esquema general de PCM</a>
+
+
+
+
+
+    
+  </nav>
+
+  <main class="container">
+    <section id="tipos">
+      <h2></h2>
+      <img src="diesinueve.jpg" alt="Imagen de prensa">
+      <p>La Modulación por Pulsos Codificados (PCM, Pulse Code Modulation) es una técnica de conversión de señales analógicas a digitales. Se utiliza ampliamente en telefonía, audio digital, comunicaciones satelitales y sistemas modernos de transmisión de datos.
+
+PCM transforma una señal analógica continua en una secuencia de números binarios mediante tres etapas principales: muestreo, cuantificación y codificación.</p>
+    </section>
+
+    <section id="tecnicas">
+      <h2>1. Etapas del Proceso PCM</h2>
+           <p>
+<li>1) Muestreo</li>
+
+Consiste en tomar muestras de la señal analógica a intervalos regulares de tiempo.
+
+Se aplica el Teorema de Nyquist, que dice que la frecuencia de muestreo debe ser al menos el doble de la frecuencia máxima de la señal.
+
+Si f_max es 4 kHz → f_s ≥ 8 kHz
+
+Ejemplo: El audio telefónico clásico muestrea a 8 kHz.
+
+<li>2) Cuantificación</li>
+
+Cada muestra tomada se aproxima al nivel más cercano dentro de un conjunto limitado de valores posibles.
+
+Convierte valores continuos → valores discretos.
+
+Introduce un error llamado ruido de cuantificación.
+
+Hay dos tipos principales:
+
+Uniforme: niveles iguales.
+
+No uniforme: niveles diseñados para señales humanas (µ-law, A-law).
+
+<li>3) Codificación</li>
+
+Cada valor cuantificado se representa con un código binario.
+
+Si hay 256 niveles, se necesitan 8 bits.
+
+Mientras más bits, mejor calidad → más datos a transmitir.</p>
+
+    </section>
+
+<section id="tecnicas">
+      <h2>📌Ventajas de PCM</h2>
+           <p>
+✔ Excelente resistencia al ruido e interferencias.<br>
+
+✔ Señales digitales fáciles de almacenar, procesar y cifrar.<br>
+
+✔ Compatible con multiplexación por división de tiempo (TDM).<br>
+
+✔ Ideal para transmisión de larga distancia.
+
+</p>
+    </section>
+
+
+<section id="tecnicas1">
+      <h2>📌Desventajas de PCM</h2>
+           <p>
+
+✖ Requiere mayor ancho de banda.<br>
+
+✖ El ruido de cuantificación puede afectar la calidad si se usan pocos bits.<br>
+
+✖ Sistemas más costosos que los analógicos (aunque cada vez menos).
+</p>
+    </section>
+<section id="tecnicas2">
+      <h2>📌 Aplicaciones de PCM</h2>
+           <p>
+Telefonía digital (G.711).
+
+Audio digital (CD: 44.1 kHz, 16 bits).<br>
+
+Telecomunicaciones satelitales.<br>
+
+Sistemas de control industrial.<br>
+
+Comunicación por fibra óptica.
+</p>
+    </section>
+
+<section id="tecnicas2">
+      <h2>📌 Esquema general de PCM</h2>
+           <p>
+Señal analógica → Muestreo → Cuantificación → Codificación → Señal digital
+</p>
+    </section>
+
+
+
+
+      </main>
+
+
+
+  <footer>
+    <p>&copy; 2025  | DANNA PONCELIS</p>
+  </footer>
+
+</body>
+</html>
